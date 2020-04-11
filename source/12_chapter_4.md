@@ -1,5 +1,8 @@
-# Research containing a figure
+# Design and Implementation
+## System architecture
+WeTell is formed by three components, which are the frondend application for users to access the system, server for handling requests and database for storing data records.
 
+![System architecture \label{system_architecture}](source/figures/system_architecture.png){ width=100% }
 ## Introduction
 
 This is the introduction. Sed vulputate tortor at nisl blandit interdum. Cras sagittis massa ex, quis eleifend purus condimentum congue. Maecenas tristique, justo vitae efficitur mollis, mi nulla varius elit, in consequat ligula nulla ut augue. Phasellus diam sapien, placerat sit amet tempor non, lobortis tempus ante.

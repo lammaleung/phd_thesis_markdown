@@ -17,8 +17,8 @@ and add the centred logo
         \vspace*{0.5cm}
         \begin{center}
         \huge
-        Management System \\
-        for Personnel Agency
+        Mystery Shopper \\
+        Application
         
         \vspace{0.5cm}
 
@@ -28,7 +28,7 @@ and add the centred logo
         \vspace{0.5cm}
         
         \Large
-        LEE Tai Chung, Tim
+        LEUNG Hiu Lam
         \end{center}
 
         \vspace{0.5cm}
