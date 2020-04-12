@@ -12,7 +12,7 @@ Flutter is an open-source and cross-platform mobile SDK created by Google. It ca
 Sails.js is the most trendy MVC framework for Node.js, which helps build custom and enterprise-grade apps. It is built on Node.js, uses Express for handling HTTP requests. [2] Sails bundles a powerful Object-Relational-Mapper(ORM), waterline, which provides a simple data access layer to any database. [2]
 
 ### Database
-MongoDB is a document database with scalability and flexibility, which is a non-relational database engine. MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time. [3`]
+MongoDB is a document database with scalability and flexibility, which is a non-relational database engine. MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time. [3]
 
 ## Features
 
