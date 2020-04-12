@@ -1,6 +1,7 @@
 # References {.unnumbered}
 [1] Flutter (n.d.). Inside Flutter. Retrieved
-April 2020, from https://flutter.dev/docs/resources/inside-flutter
+April 2020, from \newline
+https://flutter.dev/docs/resources/inside-flutter
 
 [2] Sails.js (n.d.). Realtime MVC framework for Node.js. Retrieved
 April 2020, from https://sailsjs.com/

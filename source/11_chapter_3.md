@@ -6,13 +6,13 @@ WeTell is formed by three components, which are the application for users to acc
 ![System architecture \label{system_architecture}](source/figures/system_architecture.png){ width=100% } \
 
 ### Mobile application
-Flutter is an open-source and cross-platform mobile SDK created by Google. It can be used to build both iOS and Android apps from the same code base. [1] Flutter apps are built using dart, which is an object-oriented programming language, therefore it is dynamic and extensible. Also, Flutter eliminates JavaScript bridge and is complied to native machine code, so that the performance Flutter apps. It can be used to build both iOS and Android apps from the same code base. [1] Flutter apps are built using dart, which is an object-oriented programming language, therefore it is dynamic and extensible. 
+Flutter is an open-source and cross-platform mobile SDK created by Google. It can be used to build both iOS and Android apps from the same code base[1]. Flutter apps are built using dart, which is an object-oriented programming language, therefore it is dynamic and extensible. Also, Flutter eliminates JavaScript bridge and is complied to native machine code, so that the performance Flutter apps . mdeIt can be used to build both iOS and Android apps from the same code base[1]. Flutter apps are built using dart, which is an object-oriented programming language, therefore it is dynamic and extensible. 
 
 ### Server
-Sails.js is the most trendy MVC framework for Node.js, which helps build custom and enterprise-grade apps. It is built on Node.js, uses Express for handling HTTP requests. [2] Sails bundles a powerful Object-Relational-Mapper(ORM), waterline, which provides a simple data access layer to any database. [2]
+Sails.js is the most trendy MVC framework for Node.js, which helps build custom and enterprise-grade apps. It is built on Node.js, uses Express for handling HTTP requests[2]. Sails bundles a powerful Object-Relational-Mapper(ORM), waterline, which provides a simple data access layer to any database[2]. 
 
 ### Database
-MongoDB is a document database with scalability and flexibility, which is a non-relational database engine. MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time. [3]
+MongoDB is a document database with the scalability and flexibility, which is a non-relational database engine. MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time[3].
 
 ## Features
 
@@ -38,9 +38,7 @@ If an enterprise or an inspector login successfully, a notification page is show
 
 There are 6 steps in total for task creation.
 
-![Create task page - step 1 address (enterprise) \label{feature(E)-create_task1}](source/figures/feature(E)-create_task_address.png){ width=100% } \
-
-![Create task page - step 1 autocomplete address (enterprise) \label{feature(E)-create_task1.1}](source/figures/feature(E)-create_task_address2.png){ width=100% } \
+![Create task page - step 1 address (enterprise) \label{feature(E)-create_task1}](source/figures/feature(E)-create_task_address.png){width=50%} ![Create task page - step 1 autocomplete address (enterprise) \label{feature(E)-create_task1.1}](source/figures/feature(E)-create_task_address2.png){width=50%}
 
 When the enterprise tap "New Task" tab on the bottom bar, the "Address" page is shown. Using Google Maps plugins, WeTell applies to autocomplete function for enterprises to search their target address. When enterprise types some characters, it provides some choices for the user to select. In the "Address" page, if enterprises have not inputted the address yet, when they click the "Submit" button, a snack bar with an error message is presented. After submitting the address of tasks, enterprises can proceed to the second stage. 
 
@@ -63,22 +61,24 @@ In the "Payment" page, the task details are presented for enterprises to review 
 
 ### Search and Reserve Task (Inspector)
 
-![Search task page - sort by price (inspector) \label{feature(I)-search_task_sorting}](source/figures/feature(I)-search_task_sorting.png){ width=100% } \
+![Search task page - sort by price (inspector) \label{feature(I)-search_task_sorting}](source/figures/feature(I)-search_task_sorting.png){ width=50% } \
 
 When inspectors tap on the "Search Task" tab, a list of filtered tasks is shown. If the inspector has reserved 6 or more tasks, no search results are shown. WeTell will show a message that the number of reserved tasks reached the quota, and remind the inspector to complete tasks. Also, the system matches the type of inspector and tasks' requirements. When enterprises create tasks, they can select a type of inspector. Therefore, if the inspectors do not satisfy the requirement, the task will not be sent from the server. When inspectors click the "Sort by Price" button, the list of tasks is sorted from high price to low price. In contrast, when inspectors click the "Sort by Distance" button, the list of tasks is sorted from low distance to high distance.
 
-![Search task page - map marker (inspector) \label{feature(I)-search_task_marker}](source/figures/feature(I)-search_task_marker.png){ width=100% } \
+![Search task page - map marker (inspector) \label{feature(I)-search_task_marker}](source/figures/feature(I)-search_task_marker.png){ width=50% } \
 
 Moreover, WeTell applies Google Maps plugins to present the locations of tasks, which are located by the red markers. When an inspector clicks a marker, an information window with the task's title and address is shown over the marker. The camera position will then focus on the task's location. If the user clicks the information window, the detail of the task is shown.
 
-![Search task page - details page (inspector) \label{feature(I)-search_task_detail}](source/figures/feature(I)-search_task_detail.png){ width=100% } \
+![Search task page - details page (inspector) \label{feature(I)-search_task_detail}](source/figures/feature(I)-search_task_detail.png){ width=50% } \
 
 In the "Task Detail" page, not only can users get detailed information, but users can also click the "Reserve the task" button to reserve the task. If inspectors click the "Back" button, WeTell navigates back to the "Search Task" page.
 
-![Search task page - reservation (inspector) \label{feature(I)-search_task_reserve}](source/figures/feature(I)-search_task_reserve.png){ width=100% } \
+![Search task page - reservation (inspector) \label{feature(I)-search_task_reserve}](source/figures/feature(I)-search_task_reserve.png){ width=50% } \
+
 When an inspector clicks the "Reserve the task" button, a pop-up window is shown. If the inspector clicks the "Regret" button, WeTell navigates back to the "Task Detail" page. If the inspector clicks the "Confirm" button, the server will update the user record and task record. Completion of the reservation message will be shown on the page.
 
-![Search task page - reservation (inspector) \label{feature(I)-search_task_done}](source/figures/feature(I)-search_task_done.png){ width=100% } \
+![Search task page - reservation (inspector) \label{feature(I)-search_task_done}](source/figures/feature(I)-search_task_done.png){ width=50% } \
+
 Tapping the "Return to Search Page" button, WeTell routes to the "Search Page".
 
 ### Complete Task (Inspector)
@@ -87,15 +87,15 @@ Tapping the "Return to Search Page" button, WeTell routes to the "Search Page".
 
 When inspectors click the "My Tasks" tab, a list of reserved tasks of the inspectors is presented. Brief information on each reserved task is described in a list view. The thumbnail on the left side represents the industry of each task. If the inspectors click one of the list items, a page with the task information is demonstrated. Scrolling down, a "Give up Task" button is at the bottom of the page. In case the inspectors intend to cancel the task reservation, they can simply click it. Then they can click the "Confirm" button in the pop-up window. As a result, the task will be removed in the list of reserved tasks. WeTell returns to view the list of reserved tasks. On the other hand, inspectors are allowed to start the evaluation on a task by tapping the "Start Task" button.
 
-![Start task page (inspector) \label{feature(I)-start_task}](source/figures/feature(I)-start_task.png){ width=100% } \
+![Start task page (inspector) \label{feature(I)-start_task}](source/figures/feature(I)-start_task.png){ width=50% } \
 
 When an inspector clicks the "Start Task" button, WeTell navigates to the "Start Task" page. In the "Start task" page, the content of the card view is the reminder for inspectors before they start the task. It will be generated dynamically depends on the task information. If the inspector clicks the "Start Task" button, he/she will move on to the next stage. Otherwise, he/she can click the "Back" button to go back.
 
-![Task question page (inspector) \label{feature(I)-start_task_question}](source/figures/feature(I)-start_task_question.png){ width=100% } \
+![Task question page (inspector) \label{feature(I)-start_task_question}](source/figures/feature(I)-start_task_question.png){ width=50% } \
 
 For all tasks, inspectors are asked to confirm the shop name and the address to avoid mistakes. If the answer is "No", WeTell returns a message showing that the task is invalid, then inspectors can click the "Return" button to go back to the "My Tasks" page. At the same time, a notification is sent to the corresponding enterprise to ask for the verification of the address and shop name. If the answer is "Yes", WeTell navigates to the next question. 
 
-![Task question page (inspector) \label{feature(I)-start_task_opinion}](source/figures/feature(I)-start_task_opinion.png){ width=100% } \
+![Task question page (inspector) \label{feature(I)-start_task_opinion}](source/figures/feature(I)-start_task_opinion.png){ width=50% } \
 
 When all evaluation questions are answered, inspectors are asked to fill the text field if they have any extra information related to the task. If they do not have any, the field should be empty. Clicking the "Next" button, a review of answers is shown. Inspectors can edit their answers on the page. To submit the evaluation, inspectors tap the "Submit" button. The task points are added into inspectors’ balance, which can be redeemed. The user record and task record are updated.
 
@@ -149,6 +149,7 @@ Future<Null> displayPrediction(Prediction p, ScaffoldState scaffold) async {
 ```
 
 Then, when users select a location, the maps view is changed.
+<<<<<<< HEAD
 ``` dart
  Future<void> _goToTheCurrentPlace() async {
     final GoogleMapController controller = await _controller.future;
@@ -203,3 +204,11 @@ void addMarkers() async {
     }
   }
 ```
+=======
+
+![Move to search result \label{code_go_search_result}](source/figures/code_go_search_result.png){ width=100% } \
+
+In order to visualize the location of the tasks when inspectors are searching for new task, markers and infowindow are applied. 
+
+![Create markers and infoWindow on maps \label{code_add_makers}](source/figures/code_add_makers.png){ width=100% } \
+>>>>>>> 1d001db0445462e547aec19b088ba0821674167c

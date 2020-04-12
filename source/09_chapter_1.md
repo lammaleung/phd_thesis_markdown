@@ -8,23 +8,24 @@ Mystery shopping is widely used as a diagnostic tool for service quality evaluat
 To complete a mystery shopping program, it involves three types of characters, which are mystery shopper company, mystery shopper, and enterprise. Mystery shopper companies employ and train mystery shoppers to provide mystery shopper service when enterprises purchase mystery shopping services. 
 
 The current workflow for organizing a mystery shopping program involves:
- - Recruitment and training
-    - Mystery shopper company first recruits mystery shoppers. When mystery shopper service is purchased, the company will organize the training sessions for shoppers if the shoppers have not experienced any related job yet.
 
- - Discussion with enterprise
-    - The agent of the mystery shopper company will discuss details of the service with the enterprise, including price, evaluation questions, and requirements. The price of the service will be introduced in packages. For example, the enterprise may purchase a one-year-package, which includes two visits per month. 
+ - Recruitment and training \newline
+    Mystery shopper company first recruits mystery shoppers. When mystery shopper service is purchased, the company will organize the training sessions for shoppers if the shoppers have not experienced any related job yet.
 
- - Arrangements of manpower
-    - Once the agent receives a job from a client, he/she will draft details of the task, including date, requirements, and salary. Then he/she will send the task information to shoppers, who satisfy the client's requirement and make an arrangement through email or messages. 
- 
- - Evaluation
-    - Mystery shopper observes the environment and staff behaviour during an evaluation. Audio and photos will be recorded if it is required. Shoppers will fill in an evaluation form in excel and send it to the mystery shopper company. 
+ - Discussion with enterprise \newline
+    The agent of the mystery shopper company will discuss details of the service with the enterprise, including price, evaluation questions, and requirements. The price of the service will be introduced in packages. For example, the enterprise may purchase a one-year-package, which includes two visits per month.
 
- - Data processing and analysis
-    - After receiving an evaluation from shoppers, clerical staff will be assigned to take charge of the data including revising audio scripts, verifying the data, and preparing a report for the client. The report may include shoppers' experience, related monthly statistics, and ad-hoc enhancement suggestions. 
+ - Arrangements of manpower \newline
+    Once the agent receives a job from a client, he/she will draft details of the task, including date, requirements, and salary. Then he/she will send the task information to shoppers, who satisfy the client's requirement and make an arrangement through email or messages. 
 
- - Reporting to enterprise
-    - When the report is ready, the clerical staff will send it to the client. The staff will explain the report details to the client in person if it is the first report. In the case of inquiry from the client, the staff would answer by phone or in person. 
+ - Evaluation \newline
+    Mystery shopper observes the environment and staff behaviour during an evaluation. Audio and photos will be recorded if it is required. Shoppers will fill in an evaluation form in excel and send it to the mystery shopper company. 
+
+ - Data processing and analysis \newline
+    After receiving an evaluation from shoppers, clerical staff will be assigned to take charge of the data including revising audio scripts, verifying the data, and preparing a report for the client. The report may include shoppers' experience, related monthly statistics, and ad-hoc enhancement suggestions. 
+    
+ - Reporting to enterprise \newline
+    When the report is ready, the clerical staff will send it to the client. The staff will explain the report details to the client in person if it is the first report. In the case of inquiry from the client, the staff would answer by phone or in person. 
 
 The process of a mystery shopping program is considered as time, money, manpower consuming, and cost-ineffective. The agent has to search for targeted shoppers, which fit the task requirements and draft task information and details manually. Moreover, to process and analyze the data, the clerical staff members have to verify the data and generate the statistics by hand. The manual process increases the workload of the staff when it is not effective, especially in reviewing the data and analyzing the statistics. 
 
@@ -45,9 +46,12 @@ Moreover, MissionPick only allows users to search for tasks by location, which i
 
 ## Objectives
 The purpose of this project is to develop a mystery shopper application that provides a peer-to-peer platform for enterprises and inspectors on mystery shopping services. The main objectives of the project are:
- 1. to reduce the manual operations
-    - WeTell is designed to automate the manual operations of mystery shopping programs. The system authenticates the data through algorithms so that the process of registration, task verification, and data analysis can be smoothed and unobstructed. For example, the system will track user location to ensure shoppers are in the shop area. 
- 2. to provide a user-friendly interface
-    - The Inspector platform of WeTell shows important information about the tasks as a list, such as a shop type, pay, shop's name, and address. Inspectors are allowed to filter tasks by shop type and pay. They can also reserve or start the task instantly.
- 3. to enhance the accuracy of the data
-    - When shoppers submit their evaluations, the system will process the data. Enterprises will receive the evaluation results instantly. When the task is completed, the system will generate a report with statistics and insights into the enterprises. 
+
+ 1. to reduce the manual operations \newline
+    WeTell is designed to automate the manual operations of mystery shopping programs. The system authenticates the data through algorithms so that the process of registration, task verification, and data analysis can be smoothed and unobstructed. For example, the system will track user location to ensure shoppers are in the shop area. 
+
+ 2. to provide a user-friendly interface \newline
+    The Inspector platform of WeTell shows important information about the tasks as a list, such as a shop type, pay, shop's name, and address. Inspectors are allowed to filter tasks by shop type and pay. They can also reserve or start the task instantly.
+
+ 3. to enhance the accuracy of the data \newline
+    When shoppers submit their evaluations, the system will process the data. Enterprises will receive the evaluation results instantly. When the task is completed, the system will generate a report with statistics and insights into the enterprises. 
