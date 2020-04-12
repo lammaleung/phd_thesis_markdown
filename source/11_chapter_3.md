@@ -204,11 +204,3 @@ void addMarkers() async {
     }
   }
 ```
-=======
-
-![Move to search result \label{code_go_search_result}](source/figures/code_go_search_result.png){ width=100% } \
-
-In order to visualize the location of the tasks when inspectors are searching for new task, markers and infowindow are applied. 
-
-![Create markers and infoWindow on maps \label{code_add_makers}](source/figures/code_add_makers.png){ width=100% } \
->>>>>>> 1d001db0445462e547aec19b088ba0821674167c
