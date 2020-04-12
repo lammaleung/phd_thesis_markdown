@@ -8,7 +8,7 @@ WeTell provides a peer-to-peer platform between enterprises and inspectors. Ther
 
 ### Use Case Diagram
 
-![Use case diagram \label{usecase}](source/figures/usecase.png){ width=100% }
+![Use case diagram \label{usecase}](source/figures/usecase.png){ width=100% } \
 
 | Use Case [number 1] | Sign |
 |--|--|
@@ -123,39 +123,39 @@ WeTell provides a peer-to-peer platform between enterprises and inspectors. Ther
 ### Activity Diagram
 
 #### CreateLogin and Signup
-![Login and signup \label{FUN01_LoginAndSignup}](source/figures/FUN01_LoginAndSignup.png){ width=100% }
+![Login and signup \label{FUN01_LoginAndSignup}](source/figures/FUN01_LoginAndSignup.png){ width=100% } \
 
 #### Edit Profile
-![Edit profile \label{FUN02_EditProfile}](source/figures/FUN02_EditProfile.png){ width=100% }
+![Edit profile \label{FUN02_EditProfile}](source/figures/FUN02_EditProfile.png){ width=100% } \
 
 #### Get Notification
-![Get notification \label{FUN03_GetNotification}](source/figures/FUN03_GetNotification.png){ width=100% }
+![Get notification \label{FUN03_GetNotification}](source/figures/FUN03_GetNotification.png){ width=100% } \
 
 #### Reserve Task (Inspector)
-![Reserve task (inspector) \label{FUN04_ReserveTask(I)}](source/figures/FUN04_ReserveTask(I).png){ width=100% }
+![Reserve task (inspector) \label{FUN04_ReserveTask(I)}](source/figures/FUN04_ReserveTask(I).png){ width=100% } \
 
 #### Complete Task (Inspector)
-![Complete task (inspector) \label{FUN05_CompleteTask(I)}](source/figures/FUN05_CompleteTask(I).png){ width=100% }
+![Complete task (inspector) \label{FUN05_CompleteTask(I)}](source/figures/FUN05_CompleteTask(I).png){ width=100% } \
 
 #### Redeem Points (Inspector)
-![Redeem points (inspector) \label{FUN06_RedeemPoints(I)}](source/figures/FUN06_RedeemPoints(I).png){ width=100% }
+![Redeem points (inspector) \label{FUN06_RedeemPoints(I)}](source/figures/FUN06_RedeemPoints(I).png){ width=100% } \
 
 #### Create Tasks (Enterprise)
-![Create tasks (enterprise) \label{FUN07_CreateTask(E)}](source/figures/FUN07_CreateTask(E).png){ width=100% }
+![Create tasks (enterprise) \label{FUN07_CreateTask(E)}](source/figures/FUN07_CreateTask(E).png){ width=100% } \
 
 #### Comment And Rate Result (Enterprise)
-![Comment and rate result (enterprise) \label{FUN08_CommentAndRateResult(E)}](source/figures/FUN08_CommentAndRateResult(E).png){ width=100% }
+![Comment and rate result (enterprise) \label{FUN08_CommentAndRateResult(E)}](source/figures/FUN08_CommentAndRateResult(E).png){ width=100% } \
 
 #### View Tasks Result (Enterprise)
-![View tasks result (enterprise) \label{FUN09_ViewTaskResults(E)}](source/figures/FUN09_ViewTaskResults(E).png){ width=100% }
+![View tasks result (enterprise) \label{FUN09_ViewTaskResults(E)}](source/figures/FUN09_ViewTaskResults(E).png){ width=100% } \
 
 #### Logout
-![Logout \label{FUN10_Logout}](source/figures/FUN10_Logout.png){ width=100% }
+![Logout \label{FUN10_Logout}](source/figures/FUN10_Logout.png){ width=100% } \
 
 ### State Diagram
 
-![State diagram \label{stateDiagram-loginState}](source/figures/stateDiagram-loginState.png){ width=100% }
+![State diagram \label{stateDiagram-loginState}](source/figures/stateDiagram-loginState.png){ width=100% } \
 
 ### Entity Relationship Diagram
 
-![Entity Relationship  diagram \label{ERDiagram}](source/figures/ERDiagram.png){ width=100% }
+![Entity Relationship  diagram \label{ERDiagram}](source/figures/ERDiagram.png){ width=100% } \
