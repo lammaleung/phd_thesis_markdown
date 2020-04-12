@@ -149,7 +149,7 @@ Future<Null> displayPrediction(Prediction p, ScaffoldState scaffold) async {
 ```
 
 Then, when users select a location, the maps view is changed.
-<<<<<<< HEAD
+
 ``` dart
  Future<void> _goToTheCurrentPlace() async {
     final GoogleMapController controller = await _controller.future;
