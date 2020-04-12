@@ -131,4 +131,4 @@ Then, when users select a location, the maps view is changed.
 
 In order to visualize the location of the tasks when inspectors are searching for new task, markers and infowindow are applied. 
 
-![Create markers and infoWindow on maps \label{code_add_makers}](source/figures/code_add_makers.png){ width=100% } \
+![Create markers and infoWindow on maps \label{code_add_makers}](source/figures/code_add_markers.png){ width=100% } \
