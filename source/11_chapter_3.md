@@ -1,7 +1,7 @@
 # System Implementation
 
 ## System Architecture
-WeTell is formed by three components, which are application for users to access the system, server for handling requests and database for storing data records.
+WeTell is formed by three components, which are the application for users to access the system, server for handling requests and database for storing data records.
 
 ![System architecture \label{system_architecture}](source/figures/system_architecture.png){ width=100% } \
 
@@ -20,19 +20,19 @@ MongoDB is a document database with the scalability and flexibility, which is a 
 
 ![Authentication page (enterprise) \label{feature(E)-login_signup}](source/figures/feature(E)-login_signup.png){ width=100% } \
 
-When WeTell is started, a welcome page is shown. Users are allowed to select their roles, either an enterprise or an inspector. When a user clicks "Enterprise" button, WeTell navigates to the login page of enterprise portal. The user can input his/her registered email and password for login. If the user has not created an account yet, he/she can tap "Sign up for new account" to move to "Enterprise Signup" page. To create a new account, the email input must not be taken. Also, the password input must have more than 5 digits. When the account is created, a notification with welcoming message sends to the enterprise, when the "Thank you for signing up" page is shown. The user interface of login and signup pages in inspector portal are similar.
+When WeTell is started, a welcome page is shown. Users are allowed to select their roles, either an enterprise or an inspector. When a user clicks the "Enterprise" button, WeTell navigates to the login page of the enterprise portal. The user can input his/her registered email and password for login. If the user has not created an account yet, he/she can tap "Sign up for new account" to move to the "Enterprise Signup" page. To create a new account, the email input must not be taken. Also, the password input must have more than 5 digits. When the account is created, a notification with a welcoming message sends to the enterprise, when the "Thank you for signing up" page is shown. The user interface of login and signup pages in the inspector portal are similar.
 
 ### View Profile 
 
 ![My profile page (enterprise) \label{feature(E)-my_profile}](source/figures/feature(E)-my_profile.png){ width=100% } \
 
-By tapping the last tab of bottom bar, a profile page is presented, which demonstrates the user information. For enterprise portal, the name, email, industry, and balance are shown. The enteprise can tap "Edit Profile" button to edit his/her information. When the submit button is tapped, the profile page with updated information is navigated.
+By tapping the last tab of the bottom bar, a profile page is presented, which demonstrates the user information. For the enterprise portal, the name, email, industry, and balance are shown. The enterprise can tap the "Edit Profile" button to edit his/her information. When the submit button is tapped, the profile page with updated information is navigated.
 
 ### Notification
 
 ![Notification page (enterprise) \label{feature(E)-notification}](source/figures/feature(E)-notification.png){ width=100% } \
 
-If an enterprise or an inspector login successfully, a notificaiton page is shown, which is the homepage of both portals. User can also tap the first tab of bottom bar to enter this page. The user interfaces of two portals are similar. When the user clicks a notification on the notification list, the details of the notification is introduced. 
+If an enterprise or an inspector login successfully, a notification page is shown, which is the homepage of both portals. Users can also tap the first tab of the bottom bar to enter this page. The user interfaces of the two portals are similar. When the user clicks a notification on the notification list, the details of the notification are introduced. 
 
 ### Create Task (Enterprise)
 
@@ -50,11 +50,12 @@ Enterprises are asked to fill in task information, which is task name, number of
 
 There are some templates provided for enterprises, therefore WeTell does not require too much user input, which is efficient. Clicking an item in the "Category" page, WeTell routes to the plan page. The corresponding plans in the category are illustrated. There are some brief descriptions for each plan, therefore enterprises will understand the plan before their selections. Click an item in the "Plan" page, enterprises proceed to the fifth stage.
 
-![Create task page - step 5 questions (enterprise) \label{feature(E)-create_task5}](source/figures/feature(E)-questions.png){ width=100% } \
+![Create task page - step 5 questions (enterprise) \label{feature(E)-create_task5}](source/figures/feature(E)-create_task_questions.png){ width=100% } \
 
 In the "Questions" page, the sample questions of the plan are presented in the card view. It contains a text view and text field for each card. The text field is filled with sample questions in default, therefore enterprises can simply edit partial content to create tailor-made questions for their tasks. After creating questions, enterprises can click the "Submit" button at the bottom of the page to proceed to the sixth stage. 
 
-![Create task page - step 6 payment (enterprise) \label{feature(E)-create_task6}](source/figures/feature(E)-payment.png){ width=100% } \
+
+![Create task page - step 6 payment (enterprise) \label{feature(E)-create_task6}](source/figures/feature(E)-create_task_payment.png){ width=100% } \
 
 In the "Payment" page, the task details are presented for enterprises to review if the content is correct. The price of a task depends on the number of inspectors and the number of questions. The current price is the number of inspectors multiply by 20 and the number of questions multiplies by 5. Enterprises can press "Proceed payment" at the end of the page. There is two payment method which is Paypal and credit/debit card provided by Braintree. If the payment procedure is successful, a pop-up window is shown. The task creation is completed. The task can be searched and reserved by inspectors.
 
@@ -118,7 +119,7 @@ When enterprises click the "Results" button, all the handled results are shown. 
 
 When enterprises click the "Evaluation Results" button, a list of individual evaluation results is shown, which contains the inspector number and the completed time. Clicking one of the items, the evaluation results inputted by the inspector are presented. If the enterprise has not commented and rated the result, a reminder message is shown at the top of the page. Also, the "Comment and Rate" button is at the bottom of the page as well. Otherwise, the message and the button are not presented. Tapping the "Comment and Rate" button, the enterprise can rate and comment on the result.
 
-## Impletmentation of Maps Searching
+## Implementation of Maps Searching
 
 In WeTell, when users search their locations, they are allowed to search by the destination. To implement this function, Google Places plugins through Flutter is used. 
 

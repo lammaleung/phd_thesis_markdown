@@ -7,6 +7,3 @@ I would like to express my great gratitude towards my supervisor, Dr. CHOY, Mart
 <!-- Use the \newpage command to force a new page -->
 
 \newpage
-
-
-
