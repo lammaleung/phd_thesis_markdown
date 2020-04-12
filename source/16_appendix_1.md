@@ -22,7 +22,7 @@ Git for Windows 2.x, with the Use Git from the Windows Command Prompt option.
 3. Start Android Studio, and go through the ‘Android Studio Setup Wizard’. This installs the latest Android SDK, Android SDK Command-line Tools, and Android SDK Build-Tools, which are required by Flutter when developing for Android.
 
 ## Flutter (MacOS)
-Mininum requirements:
+### Mininum requirements:
 Operating Systems: macOS (64-bit)
 Disk Space: 2.8 GB (does not include disk space for IDE/tools).
 
