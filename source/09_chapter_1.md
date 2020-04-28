@@ -33,7 +33,7 @@ On the other hand, the current evaluation form in excel is not user friendly and
 
 Due to the significant costs of a mystery shopping program, the price of the service is not affordable by the small and medium-sized enterprises. Also, enterprises expect to have a short-term or one-time mystery shopping program instead of having it in a package.
 
-WeTell is an alternative way to provide cost-effective services for enterprises. It is a peer-to-peer platform between enterprises and mystery shoppers. Mystery shoppers are allowed to accept tasks when enterprises post the tasks on the app. When shoppers finish a task, the statistics and reports will be generated automatically. Not only does the app reduce the costs of the mystery shopping program, but it also increases the accuracy of the data. 
+WeTell is an alternative way to provide cost-effective services for enterprises. It is a convenient platform between enterprises and mystery shoppers. Mystery shoppers are allowed to accept tasks when enterprises post the tasks on the app. When shoppers finish a task, the statistics and reports will be generated automatically. Not only does the app reduce the costs of the mystery shopping program, but it also increases the accuracy of the data. 
 
 ## Existing system
 MissionPick is an existing mystery shopper application in Hong Kong, which allows users to earn money by finishing mystery shopping tasks. To initiate a task, enterprises can fill in the form on the mystery shopper company's website or send an email to the company. The staff will contact them and discuss the details of mystery shopping programs with them. They will get real-time results for the task. 
@@ -45,7 +45,7 @@ MissionPick provides a convenient platform for mystery shoppers. However, it con
 Moreover, MissionPick only allows users to search for tasks by location, which is not user-friendly. It is expected to provide filters for users to choose their targeted jobs. Also, to get the detail information of the task, users have to click on the task on the map. It is expected to preview the task before the user input. 
 
 ## Objectives
-The purpose of this project is to develop a mystery shopper application that provides a peer-to-peer platform for enterprises and inspectors on mystery shopping services. The main objectives of the project are:
+The purpose of this project is to develop a mystery shopper application that provides a platform for enterprises and inspectors on mystery shopping services. The main objectives of the project are:
 
  1. to reduce the manual operations \newline
     WeTell is designed to automate the manual operations of mystery shopping programs. The system authenticates the data through algorithms so that the process of registration, task verification, and data analysis can be smoothed and unobstructed. For example, the system will track user location to ensure shoppers are in the shop area. 

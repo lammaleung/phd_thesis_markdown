@@ -4,6 +4,10 @@
 
 Since Flutter is a new technology compared to other mobile application frameworks, which is released in May 2017 and the current version is 1.12.13 [1]. Therefore, it lacks third-party libraries and packages. For example, for In-App payments in Flutter, it requires third-party libraries. However, the resources are mostly not well-documented, therefore it is difficult to implement the libraries. Comparing to Flutter, it is easy to search modules for the React Native framework on Google. Flutter's official resource of free packages is getting better, however, its list of tools is still improving.
 
+Moreover, there are some potential problems in mystery shopping. In WeTell, mystery shoppers are allowed to edit their profiles. They can select their gender, education, employment status, and age. For example, a beauty center wants to choose an 18 years old female as its mystery shopper, when WeTell currently cannot ensure the identity of the mystery shoppers, WeTell may not trustable. Therefore identity certification is needed. 
+
+Besides, there is no verification of the correctness of evaluations currently, therefore fraudsters may gain the points by inputting irrelevant data. Verification in the system is needed. WeTell may guide enterprises to set up questions to ensure that the mystery shoppers visited their shops. Also, WeTell should also track on the mystery shopper's location when the user start a task. If the shopper is not in the shop area, the task should be terminated.
+
 ## Future Development
 
 ### Enhancement on Security Issues
@@ -17,6 +21,6 @@ The user interface in both the enterprise portal and the inspector portal is sim
 Moreover, WeTell should provide graphical statistics for data analysis, so that enterprises can have a clear view of the evaluation.
 
 ## Conclusion
-WeTell provides a peer-to-peer platform between enterprises and inspectors, so agents are no longer needed. Also, WeTell reduces manual operations. When enterprises create tasks on the platform, the inspectors can actively reserve and complete tasks. The process does not involve too many manual operations. WeTell can solve the problem of the process of a mystery shopping program, which is time, money, manpower consuming, and cost-ineffective. 
+WeTell provides a platform between enterprises and inspectors, so agents are no longer needed. Also, WeTell reduces manual operations. When enterprises create tasks on the platform, the inspectors can actively reserve and complete tasks. The process does not involve too many manual operations. WeTell can solve the problem of the process of a mystery shopping program, which is time, money, manpower consuming, and cost-ineffective. 
 Moreover, WeTell also combined the advantages of existing applications, such as the user interface. WeTell also learned the weakness points from the existing applications, which as the process of creating an account and getting tasks. 
 Nevertheless, WeTell needs enhancement on security issues, functional issues, and user interface before deployment to the market. I hope that WeTell would be well-developed in the near future.

@@ -2,7 +2,7 @@
 
 ## Overview
 
-WeTell provides a peer-to-peer platform between enterprises and inspectors. There are two different systems for inspectors and enterprises, since they have particular user behaviors, which will be described below. Users are allowed to register as an enterprise or an inspector. After registration as an enterprise, the enterprise can create a task. Inspectors can reserve and complete tasks, the evaluation results will then store in tasks record. After an inspector complete a task, task points will be added to his/her balance and a notification will be sent to the enterprise. The enterprise can also view the evaluation records even the whole task is not completed yet. 
+WeTell provides a platform between enterprises and inspectors. There are two different systems for inspectors and enterprises, since they have particular user behaviors, which will be described below. Users are allowed to register as an enterprise or an inspector. After registration as an enterprise, the enterprise can create a task. Inspectors can reserve and complete tasks, the evaluation results will then store in tasks record. After an inspector complete a task, task points will be added to his/her balance and a notification will be sent to the enterprise. The enterprise can also view the evaluation records even the whole task is not completed yet. 
 
 ## System Design
 
