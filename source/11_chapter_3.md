@@ -61,23 +61,17 @@ In the "Payment" page, the task details are presented for enterprises to review 
 
 ### Search and Reserve Task (Inspector)
 
-![Search task page - sort by price (inspector) \label{feature(I)-search_task_sorting}](source/figures/feature(I)-search_task_sorting.png){ width=50% } \
+![Search task page - sort by price (inspector) \label{feature(I)-search_task_sorting}](source/figures/feature(I)-search_task_all.png){ width=100% } \
 
 When inspectors tap on the "Search Task" tab, a list of filtered tasks is shown. If the inspector has reserved 6 or more tasks, no search results are shown. WeTell will show a message that the number of reserved tasks reached the quota, and remind the inspector to complete tasks. Also, the system matches the type of inspector and tasks' requirements. When enterprises create tasks, they can select a type of inspector. Therefore, if the inspectors do not satisfy the requirement, the task will not be sent from the server. When inspectors click the "Sort by Price" button, the list of tasks is sorted from high price to low price. In contrast, when inspectors click the "Sort by Distance" button, the list of tasks is sorted from low distance to high distance.
 
-![Search task page - map marker (inspector) \label{feature(I)-search_task_marker}](source/figures/feature(I)-search_task_marker.png){ width=50% } \
-
 Moreover, WeTell applies Google Maps plugins to present the locations of tasks, which are located by the red markers. When an inspector clicks a marker, an information window with the task's title and address is shown over the marker. The camera position will then focus on the task's location. If the user clicks the information window, the detail of the task is shown.
-
-![Search task page - details page (inspector) \label{feature(I)-search_task_detail}](source/figures/feature(I)-search_task_detail.png){ width=50% } \
 
 In the "Task Detail" page, not only can users get detailed information, but users can also click the "Reserve the task" button to reserve the task. If inspectors click the "Back" button, WeTell navigates back to the "Search Task" page.
 
-![Search task page - reservation (inspector) \label{feature(I)-search_task_reserve}](source/figures/feature(I)-search_task_reserve.png){ width=50% } \
+![Search task page - reservation (inspector) \label{feature(I)-search_task_reserve}](source/figures/feature(I)-search_task_reserve_all.png){ width=100% } \
 
 When an inspector clicks the "Reserve the task" button, a pop-up window is shown. If the inspector clicks the "Regret" button, WeTell navigates back to the "Task Detail" page. If the inspector clicks the "Confirm" button, the server will update the user record and task record. Completion of the reservation message will be shown on the page.
-
-![Search task page - reservation (inspector) \label{feature(I)-search_task_done}](source/figures/feature(I)-search_task_done.png){ width=50% } \
 
 Tapping the "Return to Search Page" button, WeTell routes to the "Search Page".
 
@@ -87,15 +81,11 @@ Tapping the "Return to Search Page" button, WeTell routes to the "Search Page".
 
 When inspectors click the "My Tasks" tab, a list of reserved tasks of the inspectors is presented. Brief information on each reserved task is described in a list view. The thumbnail on the left side represents the industry of each task. If the inspectors click one of the list items, a page with the task information is demonstrated. Scrolling down, a "Give up Task" button is at the bottom of the page. In case the inspectors intend to cancel the task reservation, they can simply click it. Then they can click the "Confirm" button in the pop-up window. As a result, the task will be removed in the list of reserved tasks. WeTell returns to view the list of reserved tasks. On the other hand, inspectors are allowed to start the evaluation on a task by tapping the "Start Task" button.
 
-![Start task page (inspector) \label{feature(I)-start_task}](source/figures/feature(I)-start_task.png){ width=50% } \
+![Start task page (inspector) \label{feature(I)-start_task}](source/figures/feature(I)-start_task_all.png){ width=100% } \
 
 When an inspector clicks the "Start Task" button, WeTell navigates to the "Start Task" page. In the "Start task" page, the content of the card view is the reminder for inspectors before they start the task. It will be generated dynamically depends on the task information. If the inspector clicks the "Start Task" button, he/she will move on to the next stage. Otherwise, he/she can click the "Back" button to go back.
 
-![Task question page (inspector) \label{feature(I)-start_task_question}](source/figures/feature(I)-start_task_question.png){ width=50% } \
-
 For all tasks, inspectors are asked to confirm the shop name and the address to avoid mistakes. If the answer is "No", WeTell returns a message showing that the task is invalid, then inspectors can click the "Return" button to go back to the "My Tasks" page. At the same time, a notification is sent to the corresponding enterprise to ask for the verification of the address and shop name. If the answer is "Yes", WeTell navigates to the next question. 
-
-![Task question page (inspector) \label{feature(I)-start_task_opinion}](source/figures/feature(I)-start_task_opinion.png){ width=50% } \
 
 When all evaluation questions are answered, inspectors are asked to fill the text field if they have any extra information related to the task. If they do not have any, the field should be empty. Clicking the "Next" button, a review of answers is shown. Inspectors can edit their answers on the page. To submit the evaluation, inspectors tap the "Submit" button. The task points are added into inspectors’ balance, which can be redeemed. The user record and task record are updated.
 
