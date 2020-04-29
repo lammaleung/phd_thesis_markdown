@@ -11,7 +11,7 @@ Besides, there is no verification of the correctness of evaluations currently, t
 ## Future Development
 
 ### Enhancement on Security Issues
-Since WeTell involves the transmission of sensitive data, such as personal data, credentials, and payment information, therefore security issues are important. Encryption is necessary to communicate securely over the internet. Implementing Secure Sockets Layer (SSL) certificates is needed. SSL is a standard security technology for establishing an encrypted link between a server and a client. [4] All data transmitted across sites will have encryption deployed on the core switch level. 
+Since WeTell involves the transmission of sensitive data, such as personal data, credentials, and payment information, therefore security issues are important. Encryption is necessary to communicate securely over the internet. Implementing Secure Sockets Layer (SSL) certificates is needed. SSL is a standard security technology for establishing an encrypted link between a server and a client[4]. All data transmitted across sites will have encryption deployed on the core switch level. 
 
 ### Enhancement on User Experience (UX)
 The enterprise portal and inspector portal should be built in two separate apps. Also, for the "New Task" page on the enterprise portal, WeTell should allow users to custom their questions. Since the users may want to design a mystery shopper plan instead of using the template, WeTell should provide a flexible choice. Furthermore, the testing of the experience of the end-user is needed. A test plan and test cases should be applied to WeTell. Finally, the compatibility of the mobile is important. Although Flutter applies widgets to develop the user interface, the view of different devices may be different. For example, comparing iPhone X and iPhone SE, the layout of the "Task Detail" page may not fit iPhone SE, which may affect the user experience.
@@ -24,3 +24,8 @@ Moreover, WeTell should provide graphical statistics for data analysis, so that 
 WeTell provides a platform between enterprises and inspectors, so agents are no longer needed. Also, WeTell reduces manual operations. When enterprises create tasks on the platform, the inspectors can actively reserve and complete tasks. The process does not involve too many manual operations. WeTell can solve the problem of the process of a mystery shopping program, which is time, money, manpower consuming, and cost-ineffective. 
 Moreover, WeTell also combined the advantages of existing applications, such as the user interface. WeTell also learned the weakness points from the existing applications, which as the process of creating an account and getting tasks. 
 Nevertheless, WeTell needs enhancement on security issues, functional issues, and user interface before deployment to the market. I hope that WeTell would be well-developed in the near future.
+
+\appendix
+\setcounter{chapter}{1}
+\setcounter{section}{0}
+\renewcommand{\thechapter}{A\arabic{chapter}}

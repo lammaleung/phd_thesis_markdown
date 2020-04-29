@@ -123,7 +123,7 @@ When enterprises click the "Evaluation Results" button, a list of individual eva
 
 In WeTell, when users search their locations, they are allowed to search by the destination. To implement this function, Google Places plugins through Flutter is used. 
 
-``` dart
+``` java
 Future<Null> displayPrediction(Prediction p, ScaffoldState scaffold) async {
     if (p != null) {
       // get detail (lat/lng)
@@ -141,16 +141,13 @@ Future<Null> displayPrediction(Prediction p, ScaffoldState scaffold) async {
         target: LatLng(lat, lng),
         zoom: 15.0,
       ));
-//      scaffold.showSnackBar(
-//        SnackBar(content: Text("${p.description} - $lat/$lng")),
-//      );
     }
   }
 ```
 
 Then, when users select a location, the maps view is changed.
 
-``` dart
+``` java
  Future<void> _goToTheCurrentPlace() async {
     final GoogleMapController controller = await _controller.future;
     Position position = await Geolocator()
@@ -177,7 +174,7 @@ Then, when users select a location, the maps view is changed.
 ```
 
 In order to visualize the location of the tasks when inspectors are searching for a new task, markers and info window are applied. 
-``` dart
+``` java
 void addMarkers() async {
     if (tasks != null) {
       this.isLoading = false;
